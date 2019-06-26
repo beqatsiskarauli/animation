@@ -73,3 +73,11 @@ html, body{
 	color: #fff;
 	transform: rotate(30deg);
 }
+.travel-komp{
+	bottom: 10%;
+	left: 0;
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	transition-duration: 2s; 
+	transition-timing-function: linear;
+}
