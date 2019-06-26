@@ -1,6 +1,6 @@
 html, body{
 	width: 100%;
-	height: 100%;
+	height: 98%;
 }
 .p-relative{
 	position: relative;
@@ -14,40 +14,62 @@ html, body{
 	text-align: center;
 	background-color: #FFFFCC;
 }
-.section{
+.div-box{
 	width: 100%;
 	height: 100%;
-	background-color: #CCFFFF;
-	position: relative;
-}
-.box2{
-	width: 400px;
-	height: 400px;
-	top: 150px;
-	left: 300px;
-	position: absolute;
-}
-.spring-img{
-	background-image: url(https://emerging-europe.com/wp-content/uploads/2018/07/bigstock-190667821.png);
-	background-size: cover;
+	background-image: url(http://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
 	background-repeat: no-repeat;
-	background-position: center;
-	height: 100%;
+	background-size: cover;
 }
-.spring-h1{
-	font-size: 30px;
-	text-align: center;
+.spring{
+	font-size: 80px;
+	color: #FFFFCC;
+	top: 13%;
+	left: 7%;
+	font-family: 'Gloria Hallelujah', cursive;
+	transition: all 0.3s linear 0.2s;
 }
-.spring-h1:hover{
+.spring:hover{
+	font-size: 120px;
 	color: pink;
-	font-size: 50px;
-	margin-left: 20px;
+	transform: rotate(-30deg);
 }
-.spring-p{
-	font-size: 62px;
-	transform: rotate(45deg );
-	white-space: nowrap;
-	top: 0;
-	left: 0;
-	bottom: 0;
+.summer{
+	font-size: 80px;
+	color: #FFFFCC;
+	top: 28%;
+	left: 27%;
+	font-family: 'Gloria Hallelujah', cursive;
+	transition: all 0.3s linear 0.2s;
+}
+.summer:hover{
+	font-size: 120px;
+	color: yellow;
+	transform: rotate(30deg);
+}
+.autumn{
+	font-size: 80px;
+	color: #FFFFCC;
+	top: 43%;
+	left: 52%;
+	font-family: 'Gloria Hallelujah', cursive;
+	transition: all 0.3s linear 0.2s;
+}
+.autumn:hover{
+	font-size: 120px;
+	color: orange;
+	transform: rotate(-30deg);
+}
+.winter{
+	font-size: 80px;
+	color: #FFFFCC;
+	top: 60%;
+	right: 10%;
+	font-family: 'Gloria Hallelujah', cursive;
+	transition: all 0.3s linear 0.2s;
+}
+.winter:hover{
+	font-size: 120px;
+	color: #fff;
+	transform: rotate(30deg);
 }
