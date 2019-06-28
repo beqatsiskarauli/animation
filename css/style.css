@@ -128,3 +128,19 @@ html, body{
     75%  {top: 300px; transform: translate(150px);}
     100% {top: 500px;}
 }
+.winter-box{
+	height: 100%;
+	background-image: url(http://clipart-library.com/img1/846960.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.snowball{
+	bottom: 0;
+	right: 20px;
+}
+.gunda{
+	bottom: 0;
+	left: 0;
+	width: 400px;
+	height: 400px;
+}
