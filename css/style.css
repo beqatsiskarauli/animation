@@ -81,3 +81,50 @@ html, body{
 	transition-duration: 2s; 
 	transition-timing-function: linear;
 }
+.spring-spring{
+	height: 100%;
+	background-image: url(https://willpowermethod.com/wp-content/uploads/2014/09/autumn.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.body{
+	width: 100%;
+	height: 100%;
+}
+.autumn-img{
+	height: 500px;
+	top: 50px;
+	left: -70px;
+	animation: anim 4s infinite 1s;
+}
+@keyframes anim{
+	0%   {top: 0px; transform: rotate(-90deg);}
+    25%  {top: 200px;}
+    50%  {top: 50px; transform: rotate(135deg);}
+    75%  {top: 300px;}
+    100% {top: 500px;}
+}
+.leaf{
+	top: 50px;
+	left: 400px;
+	animation: anim1 4s infinite 1s;
+}
+@keyframes anim1 {
+	0%   {top: 0px; transform: rotate(-90deg);}
+    25%  {top: 300px;}
+    50%  {top: 100px; transform: rotate(90deg);}
+    75%  {top: 350px;}
+    100% {top: 500px;}
+}
+.leafs{
+	top: 0px;
+	left: 900px;
+	animation: anim2 4s infinite 1s;
+}
+@keyframes anim2 {
+    0%   {top: 0px; transform: rotate(0deg);}
+    25%  {top: 200px;}
+    50%  {top: 50px; transform: rotate(135deg);}
+    75%  {top: 300px; transform: translate(150px);}
+    100% {top: 500px;}
+}
